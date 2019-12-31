@@ -4,9 +4,7 @@ import('../TitlePage/TitlePage.scss');
 const TitlePage = () => {
 	return (
 		<div className="title">
-			<h1>Elco Garcia</h1>
-			<h1>Thinker</h1>
-			<h1>Developer</h1>
+			<h1>Welcome!</h1>
 		</div>
 	);
 };
