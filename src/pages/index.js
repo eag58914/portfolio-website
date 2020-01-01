@@ -8,18 +8,19 @@ import(`../styles/main.scss`);
 class IndexPage extends Component {
 	render() {
 		return (
-			<body>
+			<div>
 				<section>
 					<TitlePage />
+					<Nav />
 				</section>
-				<Nav />
+
 				<section>
 					<About />
 				</section>
 				<section>
 					<PortfolioPage />
 				</section>
-			</body>
+			</div>
 		);
 	}
 }
