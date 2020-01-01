@@ -3,7 +3,7 @@ import PortfolioCSS from './Portfolio.scss';
 const Portfolio = () => {
 	return (
 		<div className="container">
-			<div>Project 1 </div>
+			<div className="geo-caching">Project 1 </div>
 			<div>Project 2</div>
 			<div>Project 3</div>
 		</div>
