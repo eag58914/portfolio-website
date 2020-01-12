@@ -7,21 +7,7 @@ import(`../styles/main.scss`);
 
 class IndexPage extends Component {
 	render() {
-		return (
-			<div>
-				<section>
-					<TitlePage />
-					<Nav />
-				</section>
-
-				<section>
-					<About />
-				</section>
-				<section>
-					<PortfolioPage />
-				</section>
-			</div>
-		);
+		return <h1>test</h1>;
 	}
 }
 
