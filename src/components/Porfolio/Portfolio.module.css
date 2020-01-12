@@ -1,5 +1,9 @@
 .container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+	display: grid;
+}
+.projectThumbnails {
+	height: 150px;
+	width: 100%;
+	border: solid;
+	text-align: center;
 }
