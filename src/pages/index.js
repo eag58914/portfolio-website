@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import TitlePage from '../components/TitlePage/TitlePage';
-import PortfolioPage from '../components/Portfolio/PortfolioPage';
-import About from '../components/About/AboutPage';
-import Nav from '../components/Nav/Nav';
+import Title from '../components/Title/Title';
+import NavBar from '../components/NavBar/NavBar';
+import Portfolio from '../components/Porfolio/Portfolio';
 import(`../styles/main.scss`);
 
 class IndexPage extends Component {
 	render() {
-		return <h1>test</h1>;
+		return (
+			<div>
+				<NavBar />
+				<Title />
+				<Portfolio />
+			</div>
+		);
 	}
 }
 
