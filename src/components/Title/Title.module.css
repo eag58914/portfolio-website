@@ -2,6 +2,7 @@
 	font-size: 250px;
 	text-align: center;
 	animation: fadein 3s;
+	font-family: 'Roboto Slab', light;
 }
 @keyframes fadein {
 	from {
