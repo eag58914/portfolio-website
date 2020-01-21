@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from './Portfolio.module.css';
 import Geo from '../../images/Geo.jpg';
+import Fitness from '../../images/Fitness.jpg';
+import eCommerce from '../../images/e-commerce.jpg';
+import Blog from '../../images/Blog.jpg';
 
 const Portfolio = () => {
 	return (
 		<div className={styles.container}>
-			<div className={styles.projectThumbnails} img src={Geo} />
-			<h3 className={styles.projectThumbnails}>Fitness App</h3>
-			<h3 className={styles.projectThumbnails}>E-Commerce Website</h3>
-			<h3 className={styles.projectThumbnails}>Social Media App</h3>
+			<img src={Geo} className={styles.projectThumbnails} />
+			<img src={Fitness} className={styles.projectThumbnails} />
+			<img src={eCommerce} className={styles.projectThumbnails} />
+			<img src={Blog} className={styles.projectThumbnails} />
 		</div>
 	);
 };
