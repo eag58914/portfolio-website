@@ -8,8 +8,12 @@ const NavBar = () => {
 			<Link to="/about" className={style.navItem}>
 				About
 			</Link>
-			<h2 className={style.navItem}>Resume</h2>
-			<h2 className={style.navItem}>Contact</h2>
+			<Link to="/resume" className={style.navItem}>
+				Resume
+			</Link>
+			<Link to="/resume" className={style.navItem}>
+				Contact
+			</Link>
 		</div>
 	);
 };
